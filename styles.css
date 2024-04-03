@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.Container{
+    width: 100%;
+    height: 120vh;
+
+    @media screen and (max-width: 600px) {
+        min-height: 100vh
+    }
+
+}
+
+
+
+.header{
+    height: 60px;
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    @media screen and (max-width:600px) {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.header p{
+    margin-right: 20px;
+
+    @media screen and (max-width:600px) {
+        margin-left: 5px;
+    }
+}
+
+.login-btn{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 8px;
+    width: 6%;
+    height: 30px;
+    border-color: black;
+    padding: 3px 6px 3px 6px;
+
+    @media screen and (max-width: 600px) {
+        height: 30px;
+        width:100px ;
+        padding: 3px 6px;
+    }
+}
+
+.Wrapper{
+    height: calc(120vh - 60px);
+    width: 100%;
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+.SignBar{
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.Center{
+    height: 90%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (max-width: 600px) {
+        max-width: 400px; /* Limit the maximum width */
+        margin: 0 auto; /* Center the element */
+    }
+    
+}
+
+.head-tag{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  width: 290px;
+
+@media screen and (max-width:600px) {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ 
+}
+.p-tag{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 200;
+
+    @media screen and (max-width:600px) {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+
+}
+.logos-btn{
+    font-family: "Poppins", sans-serif;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: white;
+    width: 70%;
+    border-radius: 24px;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    height: 50px; 
+    cursor: pointer;
+
+    @media screen and (max-width:600px) {
+        width: 100%;
+        max-width: 300px; /* Limit the maximum width */
+        margin: 0 auto; /* Center the element */
+        margin-bottom: 10px;
+    }
+}
+
+.Ordiv{
+    display: flex;
+    align-items: center;
+    color: #969696;
+
+    @media screen and (max-width:600px) {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #969696;
+    margin-bottom: 20px;
+    }
+}
+
+.line{
+    height: 1px;
+    width: 200px;
+    background-color: #969696;
+    margin: 10px;
+
+   @media screen and (max-width:600px) {
+    flex-grow: 1; /* Fill remaining space */
+    height: 1px;
+    background-color: #969696;
+    margin: 0 10px;
+   }
+}
+
+
+
+.google-btn{
+    width: 25px;
+}
+.fb-btn{
+    width: 35px;
+}
+.apple-btn{
+    width: 30px;
+}
+
+
+.google-btn,
+.fb-btn,
+.apple-btn {
+   @media screen and (max-width:600px) {
+    width: 25px;
+    margin-right: 10px;
+   }
+}
+
+.p2-tag{
+    color: grey;
+
+
+}
+.sign-btn{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 70%;
+    border-radius: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    cursor: pointer;
+
+    @media screen and (max-width:600px) {
+        width: 100%;
+        max-width: 300px; /* Limit the maximum width */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.col-tag{
+    color: black;
+}
+
+
+.Imagediv{
+    height: 100%;
+    width: 40%;
+    /* background-image: url("./img/Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    @media screen and (max-width:600px){
+        
+        display: none;
+         
+    }
+}
+
+.Imagediv img{
+    height: 100%;
+    width: 100%;
+
+  
+}
